@@ -14,6 +14,7 @@ cd rootfs
 mkdir -p usr/bin
 
 cp ../package/start-cni-driver.sh usr/bin/start-cni-driver.sh
+cp ../package/start-flat.sh usr/bin/start-flat.sh
 cp ../bin/rancher-cni-driver usr/bin/rancher-cni-driver
 
 tar cvzf ../dist/artifacts/rancher-cni-driver-${ARCH}-${VERSION}.tar.gz .
